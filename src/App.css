@@ -1,0 +1,75 @@
+/* App.css */
+body{
+  text-align: center;
+  align-items: center;
+}
+.company-info {
+  text-align: center;
+}
+
+.company-name {
+  background-color: orange;
+  color: white;
+  display: inline-block;
+  padding: 5px 25px; /* Adjust padding to control height */
+  border-radius: 25px; /* Adjust the border-radius for rounded corners */
+  cursor: pointer; /* Add a cursor pointer to indicate interactivity */
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */ /* Set a maximum width for the background */
+  line-height: 0.2; /* Adjust line-height to control height */
+
+  /* Optional: Add hover effect */
+}
+
+.company-name:hover {
+  background-color: #ff9900; /* Change the background color on hover */
+}
+.company-description {
+  margin-top: 10px; /* Adjust top margin for separation */
+  text-align: center;
+}
+
+.company-description:after {
+  content: '';
+  display: block;
+  border-bottom: 2px dashed orange; /* Add dashed line in orange color */
+  align-items: center;
+  color: white;
+  width: 50%; /* Define the width of the dashed line */
+  margin: 10px auto 0 auto; /* Adjust top margin for separation */
+}
+
+.team-member-card {
+  text-align: center;
+  align-items: center;
+}
+
+.team-member-card img {
+    border-radius: 50%; /* Add rounded corners to the image */
+    max-width: 50%;
+    height: auto;
+}
+.team-member-card p{
+  color: #ff9900;
+}
+
+.team-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.team1 {
+  background-color: orange;
+  color: white;
+  display: inline-block;
+  padding: 5px 25px; /* Adjust padding to control height */
+  border-radius: 15px; /* Adjust the border-radius for rounded corners */
+  cursor: pointer;/* Add a cursor pointer to indicate interactivity */
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */ /* Set a maximum width for the background */
+  line-height: 0.2; /* Adjust line-height to control height */
+}
+/* Add any additional styling as needed */
